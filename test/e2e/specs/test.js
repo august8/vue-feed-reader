@@ -12,7 +12,7 @@ module.exports = {
       .url(devServer)
       .waitForElementVisible('#app', 5000)
       .assert.elementPresent('#issues')
-      .assert.containsText('h1', 'Lateset Issues')
+      .assert.containsText('h1', 'Repository: vuejs/vuejs.org')
       .assert.elementCount('img', 1)
       .end()
   }
